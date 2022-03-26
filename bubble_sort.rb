@@ -15,7 +15,11 @@
 
 # description
 
-# for each element in the numbers array look at "first_element" element and look at "second_element" where "second_element" is the element wich index is that "first_element"'s index + 1. If out of order swap idexes of "first_element" and "secon_element". Repeat "iterations", where "iterations" is the number of elements in the numbers array - 1.
+# for each element in the numbers array look at "first_element" element and look at 
+# "second_element" where "second_element" is the element wich index is that 
+# "first_element"'s index + 1. If out of order swap idexes of "first_element" and 
+# "secon_element". Repeat "iterations", where "iterations" is the number of elements 
+# in the numbers array - 1.
 
 # body
 
@@ -41,6 +45,7 @@ def bubble_sort(array)
   p bubble_sort([4,3,78,2,0,2])
   # => [0,2,2,3,4,78]
   
-  # it returns sorted array if numbers_array given as parameter contains is sorted the other way through (from max value to min value)
+  # it returns sorted array if numbers_array given as parameter 
+  # is sorted the other way through (from max value to min value)
   p bubble_sort([40,33,27,24,18,10,1])
   # => [1,10,18,24,27,33,40]
